@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    place-content: center;
+    display: grid;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.title{
+    margin: 1rem;
+    text-align-last: center;
+    font-weight: 800;
+}
+.class{
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.subtitle{
+    text-align: center;
+    padding: .5rem 2rem;
+    color: gray;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.hero img{
+    width: 400px;
+    border-bottom: 10px;
+}
+
+.planbox{
+    display: flex;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+.planbox div{
+    margin-right: 100px;
+    display: inline-grid;
+}
+
+h5{
+    font-weight: 800;
+}
+
+p{
+    color: gray;
+    font-weight: 600;
+}
+
+.planbox a{
+    font-weight: 800;
+    place-self: center;
+    font-size: small;
+}
+
+.Proceed{
+    background-color: hsl(245, 75%, 52%);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem 2rem 0rem;
+    padding: .5rem;
+    color: white;
+    font-weight: 800;
+}
+    
+.Cancel{
+    text-decoration: none;
+    color: gray;
+    display: ruby-text;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    font-weight: 600;
+}
+
+
+
+
+
